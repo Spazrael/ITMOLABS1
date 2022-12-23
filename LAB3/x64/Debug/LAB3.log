@@ -1,8 +1,0 @@
-﻿  QuickSort.cpp
-U:\VSPROJECTS\LAB3\QuickSort.cpp(30,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-U:\VSPROJECTS\LAB3\QuickSort.cpp(57,82): message : выполняется компиляция ссылки на экземпляр шаблон функции "Performance StartTest<int,main::<lambda_1>>(int,Compare)"
-          with
-          [
-              Compare=main::<lambda_1>
-          ]
-  LAB3.vcxproj -> U:\VSPROJECTS\LAB3\x64\Debug\LAB3.exe
