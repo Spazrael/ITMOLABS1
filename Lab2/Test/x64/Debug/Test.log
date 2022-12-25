@@ -5,27 +5,27 @@ U:\VSPROJECTS\Lab2\DArray.h(163,71): message : во время компиляц�
           [
               T=int
           ]
-U:\VSPROJECTS\Lab2\Test\test.cpp(71,2): message : выполняется компиляция ссылки на экземпляр шаблон функции "int DArray<int>::insert(int,const T &)"
+U:\VSPROJECTS\Lab2\Test\test.cpp(72,2): message : выполняется компиляция ссылки на экземпляр шаблон функции "int DArray<int>::insert(int,const T &)"
           with
           [
               T=int
           ]
-U:\VSPROJECTS\Lab2\Test\test.cpp(7,14): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "DArray<int>"
+U:\VSPROJECTS\Lab2\Test\test.cpp(8,14): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "DArray<int>"
 U:\VSPROJECTS\Lab2\DArray.h(159,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
 U:\VSPROJECTS\Lab2\DArray.h(154,60): message : во время компиляции функции-члена класс шаблон "int DArray<int>::insert(const T &)"
           with
           [
               T=int
           ]
-U:\VSPROJECTS\Lab2\Test\test.cpp(23,16): message : выполняется компиляция ссылки на экземпляр шаблон функции "int DArray<int>::insert(const T &)"
+U:\VSPROJECTS\Lab2\Test\test.cpp(24,16): message : выполняется компиляция ссылки на экземпляр шаблон функции "int DArray<int>::insert(const T &)"
           with
           [
               T=int
           ]
 U:\VSPROJECTS\Lab2\DArray.h(202,50): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
 U:\VSPROJECTS\Lab2\DArray.h(202,50): message : во время компиляции функции-члена класс шаблон "int DArray<int>::size(void) const"
-U:\VSPROJECTS\Lab2\Test\test.cpp(8,2): message : выполняется компиляция ссылки на экземпляр шаблон функции "int DArray<int>::size(void) const"
+U:\VSPROJECTS\Lab2\Test\test.cpp(9,2): message : выполняется компиляция ссылки на экземпляр шаблон функции "int DArray<int>::size(void) const"
 U:\VSPROJECTS\Lab2\DArray.h(203,54): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
 U:\VSPROJECTS\Lab2\DArray.h(203,54): message : во время компиляции функции-члена класс шаблон "int DArray<int>::capacity(void) const"
-U:\VSPROJECTS\Lab2\Test\test.cpp(9,2): message : выполняется компиляция ссылки на экземпляр шаблон функции "int DArray<int>::capacity(void) const"
+U:\VSPROJECTS\Lab2\Test\test.cpp(10,2): message : выполняется компиляция ссылки на экземпляр шаблон функции "int DArray<int>::capacity(void) const"
   Test.vcxproj -> U:\VSPROJECTS\Lab2\x64\Debug\Test.exe

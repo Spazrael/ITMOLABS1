@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "U:/VSPROJECTS/Lab2/DArray.h"
+#include "U:/VSPROJECTS/Lab2/TestObject.h"
 
 #pragma region DefaultType
 TEST(DAConstructorTestInt, TestDefaultConstructor)
@@ -77,15 +78,15 @@ TEST(DAConstructorTestInt, InsertTest)
 
 TEST(DAConstructorTestInt, RemoveTest)
 { 
-	DArray<int> array;
+	DArray<TestObject> array;
 	for (int i = 0; i < 5; ++i)
 		array.insert(i);
 
 	array.remove(3);
-	ASSERT_EQ(array[3], 4);
+	ASSERT_EQ(array[3].GetInt(), 4);
 
 	array.remove(0);
-	ASSERT_EQ(array[0], 1);
+	ASSERT_EQ(array[0].GetInt(), 1);
 }
 
 #pragma endregion DefaultType

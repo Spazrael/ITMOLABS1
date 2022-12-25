@@ -175,7 +175,7 @@ template<typename T> int DArray<T>::insert(int index, const T& value) {
 
 template<typename T> void DArray<T>::remove(int index) {
 	if (index < 0 || index >= size_) throw "Empty container\n";
-	_data[index].~T();
+	//_data[index].~T();
 	for (int i = index; i < size_ - 1; i++) {
 		_data[i].~T();
 		new (_data + i) T(move(_data[i + 1]));

@@ -1,0 +1,10 @@
+﻿  Main.cpp
+U:\VSPROJECTS\Lab1\Main.cpp(249,49): warning C4244: -=: преобразование "float" в "int", возможна потеря данных
+U:\VSPROJECTS\Lab1\Main.cpp(259,56): warning C4244: аргумент: преобразование "float" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+U:\VSPROJECTS\Lab1\Main.cpp(299,45): warning C4101: ex: неиспользованная локальная переменная
+U:\VSPROJECTS\Lab1\Main.cpp(303,41): warning C4101: ex: неиспользованная локальная переменная
+  Lab1.vcxproj -> U:\VSPROJECTS\Lab1\x64\Debug\Lab1.exe
